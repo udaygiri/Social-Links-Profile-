@@ -1,4 +1,17 @@
 :root{
-    --bg-colour: hsl(0, 0%, 8%)
-    
+    --bg-colour: hsl(0, 0%, 8%);
+    --white:hsl(0, 0%, 100%);
+    --primary-col: hsl(75, 94%, 57%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --fsize: 14px;
+}
+
+
+
+.container{
+    width:100vw;
+    height: 100vh;
+    background-color: var(--bg-colour);
+
 }
