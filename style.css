@@ -1,3 +1,4 @@
+/* Define CSS custom properties for color, font, and size */
 :root{
     --bg-colour: hsl(0, 0%, 8%);
     --white:hsl(0, 0%, 100%);
@@ -5,13 +6,97 @@
     --grey: hsl(0, 0%, 20%);
     --dark-grey: hsl(0, 0%, 12%);
     --fsize: 14px;
+    --fontf: inter, Georgia, 'Times New Roman', Times, serif;
 }
 
+/* Reset default margin and padding for all elements */
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
-
+/* Style the container to center its content vertically and horizontally */
 .container{
     width:100vw;
     height: 100vh;
     background-color: var(--bg-colour);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+/* Style the main content */
+.main{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-grey);
+    padding: 15px 9px;
+    border-radius: 10px;
+}
+
+/* Style the profile image */
+img{
+    margin-top: 10px;
+    width: 70px;
+    border-radius: 100%;
+}
+
+/* Style the name */
+.name{
+    font-size: 20px;
+    font-family:var(--fontf);
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom:5px;
+    color: var(--white);
+}
+
+/* Style the location */
+.location{
+    font-size: var(--fsize);
+    color: var(--primary-col);
+    font-family: var(--fontf);
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+/* Style the description */
+.discription{
+    font-size: var(--fsize);
+    color: var(--white);
+    font-family: inter, Georgia, 'Times New Roman', Times, serif;
+    margin:2rem 2rem;
+}
+
+/* Style the social links container */
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Style the individual social links */
+.link a {
+    display: flex;
+    width: 15rem; /* Adjust the width as needed */
+    height: 1.4rem; /* Adjust the height as needed */
+    padding: .5rem;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grey);
+    text-decoration: none;
+    font-size: 14px;
+    font-family: var(--fontf);
+    font-weight: 600;
+    color: var(--white);
+}
+
+/* Style the hover and focus states of social links */
+.link a:hover, .link a:focus {
+    background-color: var(--primary-col);
+    color: var(--bg-colour);
 }
