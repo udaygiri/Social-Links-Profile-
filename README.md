@@ -29,7 +29,7 @@ Users should be able to see hover and focus states for all interactive elements 
 ### Links
 
 - Solution URL: (https://github.com/udaygiri/Social-Links-Profile-)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://socialprofileudaygiri.vercel.app/)
 
 ## My process
 
