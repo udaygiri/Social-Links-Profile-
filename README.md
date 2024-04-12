@@ -88,6 +88,3 @@ In future projects, I aim to continue improving my skills in responsive design a
 ## Acknowledgments
 
 I would like to thank Frontend Mentor for providing this challenge and the supportive community for feedback and guidance.
-```
-
-This README file now reflects your project's structure, the technologies you used, what you learned, and where you plan to continue developing your skills. You can replace the placeholder URLs with your actual solution and live site URLs. If you have any questions or need further assistance, feel free to ask!
